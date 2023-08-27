@@ -1,14 +1,17 @@
 body{
     text-align: center;
     background-color: #ccffcc;
+    margin: 0;
+    padding: 0;
 }
-.btn{
-    height: 200px;
-    width: 200px;
+.btn {
+    height: 240px;
+    width: 240px;
     border-radius: 20px;
     border: 2px solid black;
-    margin: 1.5rem;
+    margin: 1rem;
 }
+
 .coin{
     display: flex;
    justify-content: center;
@@ -45,7 +48,7 @@ body.game-over {
 .reset{
     height: 40px;
     width: 100px;
-    margin-left: 100px;
+    margin-left: 162px;
     border-radius: 20px;
 }
 .start{
@@ -53,4 +56,14 @@ body.game-over {
     width: 100px;
     margin-right: 100px;
     border-radius: 20px;
+}
+
+.buttons{
+    margin-left: 85px;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+
+.icon-text {
+    padding-top: 20px;
 }
