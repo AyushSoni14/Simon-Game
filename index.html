@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-   <h1>Simon Game</h1>
+    <span class="icon-text">
+        <span class="title is-3">Simon Game</span>
+        <span class="icon">
+          <i class="fas fa-flag-checkered"></i>
+        </span>
+      </span>
    <h2>press start button to begin the game</h2>
    <div class="coin">
     <div class="btn-container">
@@ -19,9 +26,11 @@
         <div class="btn c" type="button" id="c">3</div>
         <div class="btn d" type="button" id="d">4</div>
        </div>
-       <button class="button start">Start</button>
-       <button class="button reset">reset</button>
-    
+       <div class="buttons">
+       <button class="button is-black is-medium start">Start</button>
+       <button class="button is-black  is-medium reset">Reset</button>
+       </div>
+
        </div>
    </div>
 
